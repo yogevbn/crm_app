@@ -1,0 +1,83 @@
+# Dart/Flutter related files
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter/
+.scratch_space/
+
+# iOS specific
+ios/Flutter/.last_build_id
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+ios/Pods/
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Xcode specific
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad*
+*.lock
+DerivedData/
+.dart_tool/
+
+# Android specific
+.android/
+app/**/*.iml
+app/build/
+android/.gradle/
+android/app/google-services.json
+android/key.properties
+android/local.properties
+
+# VS Code settings and launch configurations
+.vscode/
+*.code-workspace
+
+# IntelliJ related
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Other system files
+*.DS_Store
+*.log
+*.swp
+*.lock
+*.tmp
+*.temp
+*.orig
+*.rej
+*.sublime-project
+*.sublime-workspace
+Thumbs.db
+
+# Firebase/Google services files
+ios/Runner/GoogleService-Info.plist
+android/app/google-services.json
+
+# Obfuscation and Minification
+*.dart.js.deps
+*.dart.js.map
+*.dart.js
+*.dart.js.tar.gz
+.min.js
+
+# Sensitive files
+.env
+.env.*
+config/*.json # adjust if you keep config files with sensitive data
+
+# Miscellaneous
+**/test/**/golden/* # Golden files used for testing (if you use Flutter golden tests)
+coverage/
+
+# Flutter/Dart
+pubspec.lock
+

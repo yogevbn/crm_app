@@ -1,0 +1,55 @@
+name: crm_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: ^3.1.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  english_words: ^4.0.0
+  provider: ^6.0.0
+  path_provider: ^2.1.4
+  pdf: ^3.10.0  # or another version compatible with your SDK
+#  open_document: ^1.0.7
+  printing: ^5.13.3
+  bidi: ^2.0.12
+  http: ^0.13.4          # If the ChatGPT SDK uses HTTP requests
+  flutter_dotenv: ^5.0.2
+  firebase_core: ^2.5.1
+  cloud_firestore: ^4.9.1
+  sqflite: ^2.0.0
+  sqflite_common_ffi: ^2.0.0
+  shared_preferences: ^2.0.9
+  path: ^1.8.0
+  intl: ^0.19.0
+  flutter_barcode_scanner: ^2.0.0
+  image_picker: ^0.8.4+8
+  image: ^4.3.0
+  flutter_localizations:
+    sdk: flutter
+  table_calendar: ^3.1.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/main.png
+    - .env
+    - assets/lang/
+  fonts:
+    - family: DavidLibre
+      fonts:
+        - asset: assets/fonts/DavidLibre-Regular.ttf
+        - asset: assets/fonts/DavidLibre-Bold.ttf
+          weight: 700
